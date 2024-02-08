@@ -1,3 +1,16 @@
+ul {
+  display: block;
+  height: 50px;
+  background-color: #2a4d69;
+}
+a {
+  text-align: center;
+  color: #e7eff6;
+  font-size: large;
+  margin: 20px;
+}
+
+/* nää oli alkuperäset*/
 body {
   background-color: #e7eff6;
   text-align: center;
