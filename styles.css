@@ -4,10 +4,10 @@ ul {
   background-color: #2a4d69;
 }
 a {
-  text-align: center;
-  color: #e7eff6;
-  font-size: large;
-  margin: 20px;
+    text-align: center;
+    color: #e7eff6;
+    font-size: large;
+    margin: 20px;
 }
 
 /* nää oli alkuperäset*/
@@ -25,9 +25,14 @@ h2 {
   font-size: medium;
 }
 h3{
-  color: #2a4d69;
+  color: #e7eff6;
   font-size: small;
 }
 p {
   color: #2a4d69;
+}
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: #2a4d69;
 }
