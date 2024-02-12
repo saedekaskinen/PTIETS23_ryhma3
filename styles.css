@@ -1,13 +1,13 @@
 ul {
   display: block;
   height: 70px;
-  background-color: #2a4d69;
+  background-color: #2a4d69;  
 }
 a {
-    text-align: center;
-    color: #e7eff6;
-    font-size: large;
-    margin: 20px;
+  text-align: center;
+  color: #e7eff6;
+  font-size: large;
+  margin: 20px;
 }
 
 /* nää oli alkuperäset*/
