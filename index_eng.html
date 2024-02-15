@@ -16,14 +16,28 @@
 
 <body>
 <header>
+    <nav>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="index_eng.html"> Welcome</a>
+      <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="tietoa_meista_eng.html"> About us</a>
+            <a href="tuotteemme_eng.html"> Our products</a>
+            <a href="palaute_eng.html"> Feedback</a>
+            <a href="tietoa_meista.html"> Suomeksi</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <br>
 <nav>
-<ul>
-    <a href="index_eng.html"> Welcome</a>
-    <a href="tietoa_meista_eng.html"> About us</a>
-    <a href="tuotteemme_eng.html"> Our products</a>
-    <a href="palaute_eng.html"> Feedback</a>
-    <a href="index.html"> Suomeksi</a>
-</ul>
+
 </nav>
 <img src="logo.png" alt="Company logo. The logo is a square on a white background.
 The logo has a round design and is dark blue in color. Inside the blue circle is a white line.
@@ -53,6 +67,17 @@ Programs with a purpose" style="width:350px;height:350px;">
     </footer>
 
 </div>
+<script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 </body>
 
 </html>

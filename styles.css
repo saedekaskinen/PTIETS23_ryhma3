@@ -1,8 +1,9 @@
-ul {
+/*ul {
   display: block;
   height: 70px;
   background-color: #2a4d69;  
 }
+*/
 a {
   text-align: center;
   color: #e7eff6;
@@ -35,4 +36,43 @@ footer{
   text-align: center;
   padding: 3px;
   background-color: #2a4d69;
+}
+nav{
+  .topnav { /* Style the navigation menu */
+    overflow: hidden;
+    background-color: #2a4d69;
+    position: relative;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 }
