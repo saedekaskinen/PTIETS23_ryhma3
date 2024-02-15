@@ -49,7 +49,7 @@ nav{
 }
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: #e7eff6;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -57,7 +57,7 @@ nav{
 }
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: #122d42;
   display: block;
   position: absolute;
   right: 0;
@@ -65,14 +65,14 @@ nav{
 }
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #e7eff6;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #2a4d69;
+  color: #e7eff6;
 }
 
 }
