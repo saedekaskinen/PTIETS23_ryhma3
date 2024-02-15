@@ -11,6 +11,11 @@ a {
   margin: 20px;
 }
 
+.responsive {
+  width: auto;
+  height: auto;
+}
+
 /* nää oli alkuperäset*/
 body {
   background-color: #e7eff6;
